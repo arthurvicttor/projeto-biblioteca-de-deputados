@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+#container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 20px;
+}
+
+#container #search-deputados {
+  padding: 1rem;
+  width: 50%;
+
+  border: none;
+  border-radius: 40px;
+}
+
+#container #cards {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background-color: #fff;
+  border-radius: 15px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.card img {
+  max-width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
